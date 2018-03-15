@@ -47,7 +47,7 @@ IF(CMAKE_BUILD_TYPE STREQUAL "Debug" OR CMAKE_BUILD_TYPE STREQUAL "DEBUG" OR CMA
 ENDIF()
 
 LINK_DIRECTORIES(../third_party_libs/openssl-1.1.0
-  ../third_party_libs/Botan_2017_06_09__15_26 ../third_party_libs/mbedtls-2.4.2/library  )
+  ../third_party_libs/Botan ../third_party_libs/mbedtls-2.4.2/library  )
 
 
 SET(PROJECT_BINARY_DIR build)
@@ -58,7 +58,7 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 # Directories
 SET(INCLUDE_DIR include 
   ../third_party_libs/openssl-1.1.0/include
-  ../third_party_libs/Botan_2017_06_09__15_26/build/include
+  ../third_party_libs/Botan-2.2.0/build/include
   ../third_party_libs/mbedtls-2.4.2/include )
 
 SET(SRC_DIR src )
