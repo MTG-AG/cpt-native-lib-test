@@ -35,7 +35,7 @@ paths are
 ```
   ../third_party_libs/openssl-1.1.0/
   ../third_party_libs/Botan-2.2.0/
-  ../third_party_libs/mbedtls-2.4.2/)
+  ../third_party_libs/mbedtls-2.4.2/
 ```
 
 In order to build the native library test tool, execute
